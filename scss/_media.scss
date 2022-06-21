@@ -1,0 +1,615 @@
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 1140px;
+    }
+    .banner-img{
+        top: 0;
+        right: 0;
+        position: absolute;
+        img{
+         
+            height: 615px;
+            width: 630px;
+        }
+    }
+    .slick-dots{
+        margin-top: 100px;
+    }
+    .banner-content{
+        &__title{
+            font-size: 36px;
+        }
+        &__subtitle{
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.15px;
+        }
+        &__btn{
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+    .card{
+        .card-item{
+            width: 200px;
+            height: 300px;
+            img{
+                width: 160px;
+                height: 225px;
+            }
+        }
+        .slick-slide{
+            margin: 0 50px;
+    }
+    }
+    .about{
+        &-slider{
+            &__title{
+                padding-bottom: 100px;
+                font-size: 30px;
+                &::before{
+                    content: " ";
+                    background: url(../images/covid.svg);
+                    width: 63px;
+                    height: 60px;
+                    position: absolute;
+                    top: -4px;
+                    left: 450px;
+                }
+            }
+            &__item{
+                
+                &-comment{
+                    font-size: 16px;
+                }
+                &-author{
+                    font-size: 19px;
+                    line-height: 155.5%;
+                    color: $h-color;
+                    span{
+                        font-size: 13px;
+                        line-height: 17px;
+                        color: #838BA8;
+                    }
+                }
+            }
+        }
+     }
+    
+       
+    .expertice{
+        height: 850px;
+        &-title{
+
+            font-size: 28px;
+
+        }
+        &-grid{
+            padding-top: 100px;
+
+            grid-template-columns: repeat(3,290px);
+            grid-template-rows: repeat(2,220px);
+        }
+        .expertive-grid__item{
+            width: 290px;
+            height: 220px;
+        }
+        .view .mask,
+        .view .content {
+          width: 290px;
+          height: 220px;
+        }
+        .view h2 {
+            color: #fff;
+            text-align: center;
+            position: relative;
+            font-size: 18px;
+            line-height: 28px;
+            padding: 10px;
+            margin: 20px 0 0 0
+          }
+          
+          .view p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+        
+            color: #3F3D56;
+            position: relative;
+            padding: 0px 20px 0px;
+          }
+          .view-first img {
+            /*1*/
+            
+            transition: all 0.2s linear;
+            width: 290px;
+            height: 220px;
+          }
+    }
+    .footer{
+        &-call{
+            font-size: 16px;
+        }
+        .footer-menu{
+        
+            a{
+                padding-bottom: 13px;
+                display: block; 
+                padding-top: 7px;
+            }
+        }
+        
+        .footer-content{
+            .footer-content__video{
+                img{
+                    width: 400px;
+                    height: 300px;
+                }
+    
+            }
+            .footer-content__info{
+                padding-top: 70px;
+                &-call{
+                    padding-top: 42px;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: $h-color;
+                }
+                &-adress{
+                    padding-top: 4px;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 17px;
+                    text-align: right;
+                    color: $h-color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container{
+        width: 960px;
+    }
+
+    .banner{
+        .banner-img{
+            top: 160px;
+            right: 0;
+            position: absolute;
+            img{
+                height: 341px;
+                width: 631px;
+            }
+        }
+        
+    }
+    .banner-content{
+        &__title{
+            font-size: 38px;
+        }
+        &__subtitle{
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.15px;
+        }
+        &__btn{
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+    .card{
+        .card-item{
+            width: 200px;
+            height: 300px;
+            img{
+                width: 160px;
+                height: 225px;
+            }
+        }
+        .slick-slide{
+            margin: 0 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container{
+        width: 720px;
+    }
+    .wrapper{
+        .logo{
+            img{
+                width: 130px;
+             
+            }
+        }
+        .menu{
+            a{
+                font-size: 15px;
+                padding-right: 10px;
+            }
+        }
+        .header-btns{
+            .in{
+                font-size: 15px;
+            }
+            .up{
+               font-size: 15px;
+            }
+        }
+    }
+ 
+    .banner-content{
+        float: none;
+        text-align: center;
+        &__title{
+
+            font-size: 46px;
+        }
+        &__subtitle{
+
+            font-size: 24px;
+
+        }
+        &__btn{
+            
+            font-size: 18px;
+            color: #fff;
+            margin-top:10px ;
+            &:hover{
+                opacity: 0.9;
+            }
+        }
+    }
+    .banner-img{
+        img{
+            display: none;
+        }
+    
+    }
+    .programs-slider__info-title{
+        font-size: 24px;
+    }
+    .card{
+        .slick-slide{
+            margin: 0 20px;
+        }
+    }
+    .appointment-banner{
+        padding-top: 250px;
+        padding-bottom: 240px;
+       transform: rotate(90deg);
+    }
+    .appointment-banner__img{
+        transform: rotate(-90deg);
+        &::before{
+            content:" ";
+            display: block;
+            position: absolute;
+            top: -33px;
+            right: -16px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: $expertice;
+        }
+        img{
+            padding-top: 40px;
+            width: 365px;
+            height: 283px;
+        }
+    }
+    .appointment-banner__content{
+        width: 446px;
+        padding-left: 45px;
+        padding-right: 35px;
+        transform: rotate(-90deg);
+        &::before{
+            content:" ";
+            display: none;
+           
+        }
+    }
+    .about{
+        &-slider{
+            &__title{
+                text-align: center;
+                &::before{
+                    display: none;
+                }
+            }
+            .about-flex{
+                .slick-slide{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .expertice{
+        height: 2000px;
+        &-grid{
+            grid-template-columns: 290px;
+            grid-template-rows: 250px;
+            // grid-gap: 15px 15px;change
+        }
+        .expertive-grid__item{
+       
+            text-align: center;
+            width: 290px;
+            height: 250px;
+            background-color: #fff;
+            box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+        }
+        .view .mask,
+        .view .content {
+          width: 290px;
+          height: 250px;
+
+        }
+        .view-first img {
+            /*1*/
+            width: 290px;
+            height: 250px;
+          }
+
+    }
+    .footer{
+        height: 1000px;
+        
+        .footer-content{
+            display: flex;
+            flex-flow: column-reverse;
+            margin: 0 auto;
+           
+            .footer-content__info{
+                margin: 0 auto; 
+                &-adress{
+                    margin: 0 auto;
+                }
+            }
+            &__reg{
+                margin: 0 auto;
+            }
+            
+            
+        }
+        .footer-content__video{
+            display: none;
+        }
+        
+      
+
+    }
+    
+    
+
+}
+@media screen and (max-width:720px){
+    .container{
+        width: 660px;
+    }
+    .wrapper{
+        justify-content: space-around;
+    }
+    .header-btns{
+        display: none;
+    }
+    .banner-content__title{
+        font-size: 34px;
+    }
+    .banner-content__subtitle{
+        font-size: 19px;
+    }
+}
+@media screen and(max-width:660px){
+    .container{
+        width: 600px;
+    }
+    .wrapper{
+        .menu{
+            display: none;
+        }
+    }
+
+}
+@media screen and (max-width:600px){
+    .container{
+        width: 540px;
+    }
+}
+@media screen and (max-width:540px){
+    .container{
+        width: 480px;
+    }
+}
+@media screen and (max-width:480px){
+    .container{
+        width: 420px;
+    }
+    .card{
+        .card-item{
+            &__title{
+                margin-top: 12px;
+            }
+            width: 200px;
+            height: 300px;
+            img{
+                width: 184px;
+                height: 236px;
+            }
+        }
+        .slick-slide{
+            margin: 0 98px;
+        }
+    }
+}
+@media screen and (max-width: 420px){
+    .container{
+        width: 375px;
+    }
+    .menu{
+        display: none;
+    }
+
+
+
+    .banner{
+        margin-top: 0;
+        border-radius: 0;
+        height: 500px;
+        &-info{
+            margin-top: 106px;
+        }
+    }
+    .slick-dots{
+        margin-top: 50px;
+    }
+    .banner-content{
+        &__title{
+            font-size: 24px;
+            line-height: 34px;
+        }
+        &__subtitle{
+            font-size: 14px;
+            line-height: 24px;
+        }
+        
+    }
+    .programs{
+        margin-top: 95px;
+        margin-bottom: 183px;
+    }
+    .programs-slider__info-title{
+        padding-bottom:74px ;
+    }
+    .card{
+        .card-item{
+            width: 200px;
+            height: 300px;
+            img{
+                width: 184px;
+                height: 236px;
+            }
+        }
+        .slick-slide{
+            margin: 0 50px;
+        }
+    }
+    .appointment{
+        .appointment-banner__img{
+            width: 294px;
+            height: 291px;
+            img{
+                width: 295px;
+                height: 230px;
+            }
+        }
+        .appointment-banner__content{
+            padding-left: 22px;
+            width: 294px;
+            height: 291px;
+            &-title{
+                text-align: center;
+                margin-top: 13px;
+                font-size: 18px;
+                line-height: 21px;
+            }
+            &-subtitle{
+                margin-top: 12px;
+                font-size: 12px;
+                line-height: 130%;  
+            }
+            &-telephone{
+                font-size: 14px;
+                line-height: 17px;
+                margin-top: 11px;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            &-email{
+                margin-top: 18px;
+                font-size: 14px;
+                line-height: 17px;
+                img{
+                    width: 20px;
+                    height: 13px;
+                }
+            }
+            &-btn{
+                margin-top: 18px;
+                width: 247px;
+            }
+        }
+    }
+    .about{
+        &-slider{
+            margin-top: 67px;
+            &__title{
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 132.4%;
+                padding-bottom: 100px;
+            }
+            &__item{
+                &-comment{
+                    font-size: 13px;
+                    line-height: 21px;
+                }
+            }
+        }
+        
+    }
+    .expertice{
+        &-title{
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 21px;
+        }
+    }
+    .footer{
+        .footer-content{
+            .footer-content__info{
+                &-adress{
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 375px){
+    .container{
+        width: 308px;
+    }
+    .footer{
+        .footer-content__reg{
+            width: 308px;
+        }
+    }
+
+
+    
+
+
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+}

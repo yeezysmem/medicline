@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+ }
+ *,*::before, *::after{
+    box-sizing: inherit;
+ } 
+
+body{
+    font-weight: 400;
+    color: $p-color;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    
+    text-decoration: none;
+    color:  $p-color;
+  }
+  ul,
+  li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+// FOR ALL ARROWS \\
+.slick-arrow{
+  border: none;
+    position: absolute;
+    top: -25%;
+    z-index: 20;
+    font-size: 0;
+}
+.slick-arrow.slick-prev{
+    width: 37px;
+    height: 16px;
+    right: 86px;
+    background: url(../images/arrow-left.svg);
+}
+.slick-arrow.slick-next{
+    width: 72px;
+    height: 16px;
+    right: 0;
+    background: url(../images/arrow-right.svg);
+}
